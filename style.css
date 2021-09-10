@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height:15vh;
+    
+}
+.navbar{
+    display:flex;
+justify-content:space-evenly;
+align-items: center;
+max-width:80%;
+margin:auto;
+
+
+}
+.navbar li{
+    list-style:none;
+    font-size: 16px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+font-family: 'Open Sans', sans-serif;
+
+font-size: 16px;
+font-weight:400;
+color:#000;
+background-color: #ffffff;
+}
+.logo img{
+    width:120px;
+}
+/* first-section */
+.first-section{
+    height:85vh;
+    background: url("https://source.unsplash.com/WLUHO9A_xik/1600x900");
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.para{
+    padding-bottom:135px;
+    font-size: 52px;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    opacity: 9;
+}
+/* second section */
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2{
+    font-size:40px;
+    color:#000;
+    font-family: 'DM Serif Display', serif;
+    padding:0px 6px;
+}
+.container{
+padding:23px 34px;
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second-para {
+    text-align: center;
+    font-size:22px;
+    color:#d1af75;
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+font-family: 'Open Sans', sans-serif;
+
+
+}
+.third-section{
+    height:60vh;
+    background:url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover ;
+    position:relative;
+    display: flex;
+    padding-left:74px;
+    align-items: center;
+}
+.box{
+    width:40%;
+    background-color:#ffffff;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding:43px 0px;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px 0px;
+}
+.boxes h2{
+    padding-right:12px;
+    font-family: 'DM Serif Display', serif;
+
+    display:flex;
+    font-size:40px;
+
+}
+.s-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width:74px;
+    height:4px;
+    background-color:#d1af75 ;
+    position:absolute;
+right:0;
+}
+.third-para{
+    color:#d1af75 ; 
+    font-size: 32px; 
+    
+}
+.para-1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    color:#505050;
+}
+.para-2{
+    font-family: 'DM Serif Display', serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+color:#d1af75 !important;
+text-align:center;
+border-bottom:2px solid black;
+padding:12px 0px;
+}
+.second-container{
+    width:50%;
+    margin:auto;
+    
+}
+.main{
+    position: relative;
+}
+.fa-square{
+    position: absolute;
+    bottom:-8px;
+    right:126px;
+}
+.btn-1{
+    padding:43px 0px;
+}
+.right-btn{
+    padding:5px 14px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'DM Serif Display', serif;
+color:black;
+border: 2px solid black;
+margin:0px 14px;
+}
+.left-btn{
+    padding:8px 14px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'DM Serif Display', serif;
+color:#ffffff;
+background-color: black;
+border: none;
+}
+/* fifth section */
+.third-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-container-box{
+    margin:20px 12px;
+}
+.caption-1{
+    text-align:center;
+    font-size: 26px;
+    font-family: 'DM Serif Display', serif;
+color: black;
+font-weight: 400;
+}
+.caption{
+    text-align:center;
+    font-size: 18px;
+    color:black;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.link{
+    text-align: center;
+    
+}
+.link a{
+    font-size: 26px;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    color:#d1af75 !important;
+    padding:5px 9px;
+    font-size: 20px;
+    border:2px solid #d1af75;
+}
+/* sixth section */
+.sixth-section{
+    display:flex;
+    margin:74px 0px;
+    padding:85px 0px;
+    background-color: #f5f5f4;
+}
+.left{
+    width:30%;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding:23px 30px;
+
+}
+.right{
+    width:70%;
+    
+}
+.right-box{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.third-heading{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    
+}
+.logo-2{
+    padding:12px 6px;
+}
+.main-para-2{
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.txt-color{
+    color:#8d8577 !important;
+}
+
+.images{
+    overflow-x: scroll;
+    display: flex;
+    margin:45px 0px;
+}
+.third-container-box-2{
+    padding:4px 15px;
+}
+.content{
+    display: flex;
+    
+    align-items: center;
+}
+.element{
+    border-left:2px solid black;
+    padding:12px 23px;
+}
+.first-element{
+    padding-right:23px;
+    
+}
+.element-text-color{
+    color:#d1af75 !important;
+    font-size:16px;
+
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.another-class{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+padding:12px 12px;
+}
+.img-2{
+    margin:10px 6px;
+}
+.center-text{
+    text-align: center;
+    color:white;
+    padding:12px 0px;
+    opacity: 9;
+}
+.footer-list{
+    height:70vh;
+    background:black;
+}
+.span{
+    padding:0px 7px;
+}
+.button-center{
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    padding:10px 12px;
+    border:2px solid #d1af75;
+    border-radius: 22px;
+}
